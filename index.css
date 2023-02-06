@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.score-box {
+      width: 155px;
+      height: 120px;
+      background-color: black;
+      background: #080001;
+      margin-bottom: 10px;
+}
+
+.score-text {
+    color: red;
+    width: 117px;
+    height: 120px;
+    margin: 0;
+    padding: 0px;
+    font-size: 100px;
+    align-content: center;
+}
+
+.score-buttons {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    color: red;
+    width: 117px;
+    height: 120px;
+    margin: 0;
+    padding: 0px;
+    font-size: 100px;
+    align-content: center;
+}
