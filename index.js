@@ -1,15 +1,5 @@
-//defining all the home score button values
-let homeScoreBtnOne = document.getElementById("home-score-btn-1")
-let homeScoreBtnTwo = document.getElementById("home-score-btn-2")
-let homeScoreBtnThree = document.getElementById("home-score-btn-3")
-
-//defining all the guest score button values
-let guestScoreBtnOne = document.getElementById("guest-score-btn-1")
-let guestScoreBtnTwo = document.getElementById("guest-score-btn-2")
-let guestScoreBtnThree = document.getElementById("guest-score-btn-3")
-
-let homeScoreEl = document.getElementById("homeScore")
-let guestScoreEl = document.getElementById("guestScore")
+const homeScoreEl = document.getElementById("homeScore")
+const guestScoreEl = document.getElementById("guestScore")
 
 let homeScore = 0
 let guestScore = 0
@@ -25,7 +15,7 @@ function homeAddTwo() {
     homeScoreEl.textContent = homeScore
 }
 
-function addThree() {
+function homeAddThree() {
     homeScore += 3
     homeScoreEl.textContent = homeScore
 }
